@@ -1,0 +1,22 @@
+###Total list
+GET http://localhost:3000/todo/list
+
+
+### Create
+POST http://localhost:3000/todo/create
+Content-Type: application/json
+
+{
+    "title" : "Todo 2"
+}
+
+### Update
+PUT http://localhost:3000/todo/602f50bd26204538749ac962
+Content-Type: application/json
+
+{
+    "title" : "pk"
+}
+
+###Delete
+DELETE http://localhost:3000/todo/602f50bd26204538749ac962
